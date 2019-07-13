@@ -9,7 +9,8 @@ const mimeTypes = {
   'json':'application/gif',
   'js':'text/javascript',
   'html':'text/html',
-  'xml':'text/xml'
+  'xml':'text/xml',
+  'txt':'text/plain'
 };
 
 module.exports = (filePath) => {
