@@ -18,5 +18,8 @@
   "homepage": "https://github.com/bwlu/everywhere#readme",
   "devDependencies": {
     "babel-eslint": "^10.0.2"
+  },
+  "dependencies": {
+    "handlebars": "^4.1.2"
   }
 }
