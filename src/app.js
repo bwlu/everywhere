@@ -13,8 +13,8 @@ class Server {
       route(req,res,filePath,this.conf);
     });
 
-    server.listen(conf.port,conf.hostname,() => {
-      const addr = `http://${conf.hostname}:${conf.port}`;
+    server.listen(this.conf.port,this.conf.hostname,() => {
+      const addr = `http://${this.conf.hostname}:${this.conf.port}`;
       console.info(`server started at ${addr}`);
     });
   }

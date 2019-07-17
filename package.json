@@ -2,7 +2,7 @@
   "name": "everywhere",
   "version": "1.0.0",
   "description": "静态资源服务器",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
