@@ -20,6 +20,6 @@
     "babel-eslint": "^10.0.2"
   },
   "dependencies": {
-    "handlebars": "^4.1.2"
+    "handlebars": "^4.3.0"
   }
 }
